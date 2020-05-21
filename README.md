@@ -27,7 +27,7 @@ Because we want to be considerate of candidates’ time, we are asking that you 
 4. imdb_5000.csv 
 
     
-#### Prerequisites 
+#### Setting up the virtual environment and Jupyter kernel
 
 1. Create a virtual environment
 
