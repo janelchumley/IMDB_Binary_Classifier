@@ -31,11 +31,11 @@ Because we want to be considerate of candidates’ time, we are asking that you 
 
 1. Create a virtual environment
 
-    `python3 -m venv imdbenv`
+    `python3 -m venv imdb_venv`
 
 2. Activate the new virtual environment
 
-    `source imdbenv/bin/activate`
+    `source imdb_venv/bin/activate`
     
 3. Install packages 
 
@@ -43,10 +43,14 @@ Because we want to be considerate of candidates’ time, we are asking that you 
 
 3. Create a Jupyter kernel for the new environment
 
-    `python -m ipykernel install --user --name imdbenv --display-name "imdbenv"`
+    `python -m ipykernel install --user --name imdb_venv --display-name "imdb_venv"`
 
 4. Start the Jupyter notebook server from your terminal 
 
     `jupyter notebook`
 
-5. With the .ipynb file open in the browser, select Kernel then imdbenv from the dropdown.
+5. With the .ipynb file open locally in your browser, select Kernel then imdb_venv from the dropdown.
+
+6. To deactivate the virtual environment
+
+    `deactivate`
