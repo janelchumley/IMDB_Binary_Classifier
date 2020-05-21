@@ -39,7 +39,7 @@ Because we want to be considerate of candidates’ time, we are asking that you 
     
 3. Install packages 
 
-    `pip install -r requirements.txt`"
+    `pip install -r requirements.txt`
 
 3. Create a Jupyter kernel for the new environment
 
